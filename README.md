@@ -26,7 +26,7 @@ kb.get_features()
 
 #### Matlab
 ```matlab
-kb=py.kbInterface.get([workspaceID]/[resourceID])
+kb=py.kbInterface.get('[workspaceID]/[resourceID]')
 kb.get_features()
 ```
 
