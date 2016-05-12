@@ -25,7 +25,7 @@ setup(
 
     description='Get KBase Session',
     
-    #long_description=long_description,
+    long_description=open('README.md').read(),
 
     # The project's main homepage.
     url='https://www.github.com/SysBio/kbInterface/',
