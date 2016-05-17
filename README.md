@@ -15,7 +15,7 @@ cd kbInterface
 python setup.py install
 ```
 
-### Matlab (extra)
+#### Matlab (extra)
 ```matlab
 addpath('[git clone path]/structFromPyObj.m')
 ```
