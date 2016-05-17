@@ -30,8 +30,6 @@ kb=py.kbInterface.get('[workspaceID]/[resourceID]')
 kb.get_features()
 ```
 
-Please save valid KBase account info (json format) to '~/.kbacc' in your home directory. The 
-resource **must** be in a KBase workspace that you have access to (IDs can be found in the 
-KBase narrative). Tested on MacOS X El Capitan.
+Please save valid KBase account info (json format) to '~/.kbacc' in your home directory (**or** just run kbInterface.get() in python). The resource **must** be in a KBase workspace that you have access to (IDs can be found in the KBase narrative). Tested on MacOS X El Capitan.
 
 [![PyPI version](https://badge.fury.io/py/kbInterface.svg)](https://badge.fury.io/py/kbInterface)
