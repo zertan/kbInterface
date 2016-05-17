@@ -15,6 +15,11 @@ cd kbInterface
 python setup.py install
 ```
 
+### Matlab (extra)
+```matlab
+addpath('[git clone path]/structFromPyObj.m')
+```
+
 ## Usage:
 
 #### Python
@@ -26,8 +31,9 @@ kb.get_features()
 
 #### Matlab
 ```matlab
-kb=py.kbInterface.get('[workspaceID]/[resourceID]')
-kb.get_features()
+kb=py.kbInterface.get('[workspaceID]/[resourceID]');
+features=kb.get_features();
+features=structFromPyObj(features) % convert to matlab struct
 ```
 
 Please save valid KBase account info (json format) to '~/.kbacc' in your home directory (**or** just run kbInterface.get() in python). The resource **must** be in a KBase workspace that you have access to (IDs can be found in the KBase narrative). Tested on MacOS X El Capitan.
