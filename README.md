@@ -1,5 +1,5 @@
 # kbInterface
-This is a very early (alpha) version MATLAB interface to the new [KBase data API](https://github.com/kbase/data_api).
+This is a very early (alpha) version python+MATLAB interface to the new [KBase data API](https://github.com/kbase/data_api).
 
 ## Installation:
 
